@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.xxschrandxx.wcs.kas-api"
+	xmlns="https://www.woltlab.com"
+	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.4/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[All-Inkl KAS API]]></packagename>
+		<packagedescription><![CDATA[Adds All-Inkl KAS API.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Fügt eine allumfassende KAS-API hinzu.]]></packagedescription>
+		<version>1.0.0</version>
+		<date>2022-11-07</date>
+	</packageinformation>
+
+	<authorinformation>
+		<author><![CDATA[xXSchrandXx]]></author>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+
+	<excludedpackages>
+		<excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+
+	<instructions type="install">
+		<instruction type="file"/>
+		<instruction type="language"/>
+		<instruction type="option"/>
+	</instructions>
+</package>

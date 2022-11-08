@@ -1,0 +1,85 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8e9af6eec9952fdca1236b0398a6d5bc",
+    "packages": [
+        {
+            "name": "kveldscholten/kasapi-php",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kveldscholten/kasapi-php.git",
+                "reference": "fbb61a0115fe449539d54920ea17d95870de408f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kveldscholten/kasapi-php/zipball/fbb61a0115fe449539d54920ea17d95870de408f",
+                "reference": "fbb61a0115fe449539d54920ea17d95870de408f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-soap": "*",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "KasApi\\": "src/KasApi"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Veldscholten",
+                    "email": "kevin_veldscholten@web.de",
+                    "homepage": "https://github.com/kveldscholten/kasapi-php"
+                },
+                {
+                    "name": "Daniel Herrmann",
+                    "email": "daniel.herrmann1@gmail.com",
+                    "homepage": "https://github.com/waza-ari/"
+                },
+                {
+                    "name": "Elias Kuiter",
+                    "email": "info@elias-kuiter.de",
+                    "homepage": "https://github.com/ekuiter/"
+                }
+            ],
+            "description": "Manage your All-Inkl account with the KAS API for PHP",
+            "homepage": "https://github.com/kveldscholten/kasapi-php",
+            "keywords": [
+                "KAS",
+                "all-inkl",
+                "api",
+                "kasserver",
+                "php",
+                "soap",
+                "wsdl"
+            ],
+            "support": {
+                "issues": "https://github.com/kveldscholten/kasapi-php/issues",
+                "source": "https://github.com/kveldscholten/kasapi-php/tree/1.0.0"
+            },
+            "time": "2022-09-21T05:14:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "8.1.2"
+    },
+    "plugin-api-version": "2.3.0"
+}

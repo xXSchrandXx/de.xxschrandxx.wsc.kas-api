@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="https://www.woltlab.com"
+	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.4/option.xsd">
+	<import>
+		<categories>
+			<category name="kas">
+				<parent/>
+			</category>
+			<category name="kas_general">
+				<parent>kas</parent>
+			</category>
+		</categories>
+		<options>
+			<option name="kas_login">
+				<categoryname>kas_general</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="kas_auth_data">
+				<categoryname>kas_general</categoryname>
+				<optiontype>password</optiontype>
+			</option>
+			<option name="kas_auth_type">
+				<categoryname>kas_general</categoryname>
+				<optiontype>select</optiontype>
+				<selectoptions>plain:wcf.acp.option.kas_auth_type.type.plain
+sha1:wcf.acp.option.kas_auth_type.type.sha1</selectoptions>
+			</option>
+		</options>
+	</import>
+</data>

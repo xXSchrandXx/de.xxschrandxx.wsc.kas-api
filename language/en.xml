@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="en"
+	xmlns="https://www.woltlab.com"
+	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.5/language.xsd">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.kas"><![CDATA[KAS]]></item>
+		<item name="wcf.acp.option.category.kas_general"><![CDATA[General Settings]]></item>
+		<item name="wcf.acp.option.kas_login"><![CDATA[Login]]></item>
+		<item name="wcf.acp.option.kas_auth_data"><![CDATA[Password]]></item>
+		<item name="wcf.acp.option.kas_auth_type"><![CDATA[Password-Type]]></item>
+		<item name="wcf.acp.option.kas_auth_type.type.plain"><![CDATA[plain text]]></item>
+		<item name="wcf.acp.option.kas_auth_type.type.sha1"><![CDATA[SHA1 API token]]></item>
+	</category>
+</language>

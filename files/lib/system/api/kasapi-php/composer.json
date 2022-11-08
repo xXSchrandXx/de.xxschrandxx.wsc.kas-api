@@ -1,0 +1,12 @@
+{
+    "config": {
+        "vendor-dir": "./",
+        "platform": {
+            "php": "8.1.2"
+        }
+    },
+    "require": {
+        "kveldscholten/kasapi-php": "^1.0.0"
+    },
+    "type": "project"
+}
