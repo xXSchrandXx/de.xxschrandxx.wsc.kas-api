@@ -23,8 +23,10 @@
 	</excludedpackages>
 
 	<instructions type="install">
+		<instruction type="acpMenu"/>
 		<instruction type="file"/>
 		<instruction type="language"/>
 		<instruction type="option"/>
+		<instruction type="userGroupOption"/>
 	</instructions>
 </package>
