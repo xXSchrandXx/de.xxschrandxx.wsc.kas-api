@@ -11,4 +11,12 @@
 		<item name="wcf.acp.option.kas_auth_type.type.plain"><![CDATA[Klartext]]></item>
 		<item name="wcf.acp.option.kas_auth_type.type.sha1"><![CDATA[SHA1 API Token]]></item>
 	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.kas"><![CDATA[KAS]]></item>
+		<item name="wcf.acp.group.option.category.mod.kas"><![CDATA[KAS]]></item>
+		<item name="wcf.acp.group.option.category.admin.kas"><![CDATA[KAS]]></item>
+	</category>
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.configuration.kas"><![CDATA[KAS]]></item>
+	</category>
 </language>
