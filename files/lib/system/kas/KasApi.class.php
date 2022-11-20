@@ -96,8 +96,9 @@ class KasApi
      * @param string $login
      * @param string $authData
      * @param string $autType
+     * @param bool $autodelay
      */
-    public function __construct($login = null, $authData = null, $authType = null)
+    public function __construct($login = null, $authData = null, $authType = null, $autodelay = false)
     {
         require_once(WCF_DIR . 'lib/system/api/kasapi-php/autoload.php');
         if (!isset($login)) {
@@ -109,8 +110,11 @@ class KasApi
         if (!isset($authType)) {
             $authType = KAS_AUTH_TYPE;
         }
+        if (!isset($autodelay)) {
+            $authType = false;
+        }
 
-        $this->configuration = new \KasApi\KasConfiguration($login, $authData, $authType, false);
+        $this->configuration = new \KasApi\KasConfiguration($login, $authData, $authType, $autodelay);
         $this->api = new  \KasApi\KasApi($this->configuration);
     }
 
