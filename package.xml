@@ -6,7 +6,7 @@
 		<packagename><![CDATA[All-Inkl KAS API]]></packagename>
 		<packagedescription><![CDATA[Adds All-Inkl KAS API.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Fügt eine allumfassende KAS-API hinzu.]]></packagedescription>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<date>2022-11-07</date>
 	</packageinformation>
 
