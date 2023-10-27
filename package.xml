@@ -6,7 +6,7 @@
 		<packagename><![CDATA[All-Inkl KAS API]]></packagename>
 		<packagedescription><![CDATA[Adds All-Inkl KAS API.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Fügt eine allumfassende KAS-API hinzu.]]></packagedescription>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<date>2022-11-07</date>
 	</packageinformation>
 
@@ -15,16 +15,12 @@
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="6.0.0 Beta 1">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 
 	<excludedpackages>
-		<excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="7.0.0 dev 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
-
-	<instructions type="update" fromversion="1.0.0">
-		<instruction type="file"/>
-	</instructions>
 
 	<instructions type="install">
 		<instruction type="acpMenu"/>
